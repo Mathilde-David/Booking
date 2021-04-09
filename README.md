@@ -1,6 +1,11 @@
 Assignment: ETL pipeline
 ========================
 
+REQUIREMENTS :
+============
+* docker
+* docker-compose
+
 
 HOW TO RUN :
 ============
@@ -9,12 +14,13 @@ docker-compose up --build
 ```
 
 * If you want to check the data output, in another console tab :
+
 ```
 docker-compose exec db psql -localhost -U postgres
 \c my_database
 \dt
 SELECT * FROM monthly_restaurants_report;
-
+```
 
 MY CHOICES: 
 ===========
