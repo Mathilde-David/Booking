@@ -13,7 +13,14 @@ HOW TO RUN :
 docker-compose up --build
 ```
 
-* If you want to check the data output, in another console tab :
+* Result expected : 
+```
+booking_app_1 exited with code 0
+```
+Some running test steps might take a while (around 30 to 90s) let it run until you match expected result
+
+
+* Then, If you want to check the data output, in another console tab :
 
 ```
 docker-compose exec db psql -localhost -U postgres
