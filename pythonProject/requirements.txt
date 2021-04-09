@@ -1,0 +1,15 @@
+greenlet==1.0.0
+importlib-metadata==3.10.0
+linecache2==1.0.0
+numpy==1.20.2
+pandas==1.2.3
+psycopg2==2.8.4
+python-dateutil==2.8.1
+python-dotenv==0.17.0
+pytz==2021.1
+six==1.15.0
+SQLAlchemy==1.4.5
+traceback2==1.4.0
+typing-extensions==3.7.4.3
+unittest2==1.1.0
+zipp==3.4.1

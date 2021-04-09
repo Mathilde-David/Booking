@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app :
+    build: ./pythonProject/
+    depends_on:
+    - db
+  db:
+    image: postgres:9.6-alpine
+    environment:
+      POSTGRES_PASSWORD: pwd0123456789
+      POSTGRES_USER: postgres
+      POSTGRES_DB: my_database
